@@ -1,0 +1,115 @@
+body {
+    font-family: monospace;
+    margin: 0;
+}
+
+
+
+/* HOMEPAGE STYLING */
+
+.homepage-logo {
+    display: block;
+    margin: 5% auto;
+    width: 30%;
+}
+
+.homepage-header {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.homepage-button {
+    display: inline-block;
+    margin: .5em;
+    padding: 0.5em 1em;
+    background-color: #df529e;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5em;
+}
+
+.homepage-episode-card {
+    box-sizing: border-box;
+    background-color: #fcc48d;
+    width: 50%;
+    margin: 2% auto;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.homepage-episode-card .title-date-line h2 {
+    display: inline;
+    vertical-align: bottom;
+} 
+.homepage-episode-card .title-date-line p {
+    display: inline;
+    vertical-align: bottom;
+}
+
+
+
+/* EPISODE STYLING */
+
+.episode-logo {
+    display: block;
+    margin: 2% auto 5% auto;
+    width: 30%;
+}
+
+
+.episode-content {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+/* ABOUT STYLING */
+.about-content {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+/* SOUNDBOARD STYLING */
+.soundboard-content {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/* PHONE STYLING */
+
+@media (max-width: 800px) {
+    .homepage-logo {
+        width: 80%;
+        margin: 5% auto;
+    }
+
+    .homepage-header {
+        width: 90%;
+    }
+
+    .homepage-episode-card {
+        width: 90%;
+    }
+
+    .episode-logo {
+        width: 80%;
+        margin: 2% auto 5% auto;
+    }
+
+    .episode-content {
+        width: 90%;
+    }
+
+    .about-content {
+        width: 90%;
+    }
+
+    .soundboard-content {
+        width: 90%;
+    }
+}

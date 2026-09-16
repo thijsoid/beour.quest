@@ -84,6 +84,18 @@ body {
     margin: 0 auto;
 }
 
+.soundboard-card {
+    display: grid;
+    grid-template-columns: 1fr 6fr 3fr;
+    align-items: center;
+    gap: 2%;
+    margin: 2% 0;
+}
+
+.soundboard-card audio {
+    width: 100%;
+}
+
 
 /* PHONE STYLING */
 
@@ -116,5 +128,9 @@ body {
 
     .soundboard-content {
         width: 90%;
+    }
+
+    .soundboard-card {
+        grid-template-columns: 1fr;
     }
 }

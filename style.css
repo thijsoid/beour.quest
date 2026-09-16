@@ -29,6 +29,11 @@ body {
     border-radius: 0.5em;
 }
 
+.homepage-teaser-title {
+    width: 50%;    
+    margin: 1% auto;
+}
+
 .homepage-episode-card {
     box-sizing: border-box;
     background-color: #fcc48d;
